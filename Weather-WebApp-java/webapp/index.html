@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Ankit Singh</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background: linear-gradient(to right, #2b40ff, #07121a);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .logo img {
+            height: 130px;
+            filter: drop-shadow(10px 10px 10px black);
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.3rem;
+        }
+
+        h3 {
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+
+        .tech {
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        /* Search input style */
+        .searchInput {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .searchInput input {
+            width: 250px;
+            height: 2rem;
+            padding: 0.5rem;
+            border-radius: 1.5rem;
+            border: 1px solid #ddd;
+            outline: none;
+        }
+
+        .searchInput button {
+            width: 2.5rem;
+            height: 2rem;
+            margin-left: 0.4rem;
+            border-radius: 50%;
+            border: 1px solid #ddd;
+            background: white;
+            cursor: pointer;
+        }
+
+        .searchInput button:hover {
+            background: #9c9dde;
+            color: white;
+            border-color: #9c9dde;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="images/weather-logo.png" alt="Weather Logo">
+    </div>
+
+    <h1>Welcome to the Weather Web App</h1>
+    <h3>Made by @AnkitSingh</h3>
+
+    <div class="tech">
+        <h2>Technologies Used:</h2>
+        <p>HTML, CSS, JavaScript, Java, Servlet, JSP, WeatherAPI</p>
+    </div>
+
+    <form action="MyServlet" method="post" class="searchInput">
+        <input type="text" placeholder="Enter City Name" id="searchInput" value="New Delhi" name="city"/>
+        <button id="searchButton">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </form>
+
+</body>
+</html>
