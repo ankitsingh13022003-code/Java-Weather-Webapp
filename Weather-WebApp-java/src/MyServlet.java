@@ -48,7 +48,7 @@ public class MyServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		//String inputData=request.getParameter("userInput");//reading input data from form method post
 		//API setup
-		String apiKey="2b1aca78c8354eea969120322250312";
+		String apiKey="Your_Api_Key";
 		//get city from the form input
 		String city=request.getParameter("city").trim();
 		String encodedCity = URLEncoder.encode(city, "UTF-8");
@@ -133,4 +133,5 @@ public class MyServlet extends HttpServlet {
 
 }
 //https://api.openweathermap.org/data/2.5/forecast/daily?q={city%20name}&cnt={cnt}&appid={API%20key}
+
 //fe795de3bae97f8bb3da04147bb143fa
