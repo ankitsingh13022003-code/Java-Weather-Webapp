@@ -12,7 +12,7 @@ This project fetches **real-time weather data** (temperature, humidity, wind spe
 ### 🔷 Live Weather Card Example  
 > *Shows temperature, condition icon, humidity, wind speed & date-time*
 
-<img src="Weather-WebApp-java/ScreenShot/images2.png" alt="Weather UI" width="500">
+<img src="Weather-WebApp-java/ScreenShot/images2.png" alt="Weather UI" width="800">
 
 ---
 
