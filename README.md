@@ -16,6 +16,7 @@ This project fetches **real-time weather data** (temperature, humidity, wind spe
 
 ---
 
+
 ## 🚀 Features
 
 - 🌍 Search weather by city name  
